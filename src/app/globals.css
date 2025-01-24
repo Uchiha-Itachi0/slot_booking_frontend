@@ -53,3 +53,18 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
+
+.bigButton {
+  @apply p-2  py-6 w-full  font-semibold rounded-xl h-8 hover:-translate-y-2 ease-in transition-all duration-100 cursor-pointer
+}
+.bigButtonPrimary {
+  @apply bigButton bg-primary text-white
+}
+.bigButtonPrimaryWhite {
+  @apply bigButton bg-primaryWhite dark:text-black
+}
+
+
+.smallText {
+  @apply text-[12px] text-gray-600
+}
